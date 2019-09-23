@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       <Header />
       <Filter />
-      <SimpleTable />
+      <SimpleTable className='table_sim' />
     </div>
   );
 }

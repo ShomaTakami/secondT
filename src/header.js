@@ -6,7 +6,7 @@ import "./header.css";
 class Header extends React.Component {
   render() {
     return (
-      <div className='header'>
+      <div className='header' style={{ whiteSpace: "nowrap" }}>
         <span align='left' className='left inline'>
           Angular 6 MatTable CRUD Example
         </span>

@@ -133,15 +133,28 @@ export default function SimpleTable() {
         <TableBody>
           {rows.map(row => (
             <TableRow key={row.id}>
-              <TableCell component='th' scope='row'>
+              <TableCell
+                component='th'
+                scope='row'
+                style={{ whiteSpace: "nowrap" }}>
                 {row.id}
               </TableCell>
-              <TableCell align='left'>{row.title}</TableCell>
-              <TableCell align='left'>{row.state}</TableCell>
-              <TableCell align='left'>{row.url}</TableCell>
-              <TableCell align='left'>{row.created}</TableCell>
-              <TableCell align='left'>{row.update}</TableCell>
-              <TableCell align='left'>
+              <TableCell align='left' style={{ whiteSpace: "nowrap" }}>
+                {row.title}
+              </TableCell>
+              <TableCell align='left' style={{ whiteSpace: "nowrap" }}>
+                {row.state}
+              </TableCell>
+              <TableCell align='left' style={{ whiteSpace: "nowrap" }}>
+                {row.url}
+              </TableCell>
+              <TableCell align='left' style={{ whiteSpace: "nowrap" }}>
+                {row.created}
+              </TableCell>
+              <TableCell align='left' style={{ whiteSpace: "nowrap" }}>
+                {row.update}
+              </TableCell>
+              <TableCell align='left' style={{ whiteSpace: "nowrap" }}>
                 <EditIcon style={{ color: "#E91F62" }} />
                 <DeleteIcon style={{ color: "#E91F62" }} />
               </TableCell>

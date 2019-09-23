@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  margin: 200px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .App-logo {
@@ -20,4 +22,8 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.table_sim {
+  width: auto;
 }
