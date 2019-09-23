@@ -1,0 +1,13 @@
+.header {
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  background-color: #374bb4;
+  font-size: 1.8rem;
+}
+
+.inline {
+  display: inline-block;
+  width: 700px;
+  height: 10px;
+}
