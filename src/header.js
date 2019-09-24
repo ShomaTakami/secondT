@@ -1,21 +1,35 @@
 import React from "react";
-import ReplayIcon from "@material-ui/icons/Replay";
+import { makeStyles } from "@material-ui/core/styles";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+import RefreshIcon from "@material-ui/icons/Refresh";
 
-import "./header.css";
-
-class Header extends React.Component {
-  render() {
-    return (
-      <div className='header' style={{ whiteSpace: "nowrap" }}>
-        <span align='left' className='left inline'>
-          Angular 6 MatTable CRUD Example
-        </span>
-        <span align='right' className='right inline'>
-          Reload data: <ReplayIcon />
-        </span>
-      </div>
-    );
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1
+  },
+  menuButton: {
+    marginRight: theme.spacing(2)
+  },
+  toolbar: {
+    display: "flex",
+    justifyContent: "space-between"
   }
-}
+}));
 
-export default Header;
+export default function ButtonAppBar() {
+  const classes = useStyles();
+
+  return (
+    <AppBar position='static'>
+      <Toolbar className={classes.toolbar}>
+        <Typography variant='h6'>Angular 6 MatTable CRUD Example</Typography>
+        <Button color='inherit'>
+          Reload Data: <RefreshIcon />
+        </Button>
+      </Toolbar>
+    </AppBar>
+  );
+}

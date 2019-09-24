@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 import SimpleTable from "./SimpleTable";
 import Filter from "./filter";
-import Header from "./header";
+import ButtonAppBar from "./header";
 
 function App() {
   return (
     <div className='App'>
-      <Header />
+      <ButtonAppBar />
       <Filter />
       <SimpleTable className='table_sim' />
     </div>
