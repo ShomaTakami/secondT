@@ -36,7 +36,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514521,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
@@ -44,7 +44,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514522,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
@@ -52,7 +52,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514523,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
@@ -60,7 +60,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514524,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
@@ -68,7 +68,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514525,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
@@ -76,7 +76,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514526,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
@@ -84,7 +84,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514527,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
@@ -92,7 +92,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514528,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
@@ -100,7 +100,7 @@ const rows = [
     "2019-09-17T09:40:59Z"
   ),
   createData(
-    495514520,
+    495514529,
     "PLATFORM_ID injection into custom decorators",
     "open",
     "https://api.github.com/repos/angular2019-09-17T09:40:59Z",
